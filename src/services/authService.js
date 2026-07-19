@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:8080/api/auth";
+const API = "https://supplysync-ai-backend-1.onrender.com/api/auth";
 
 export const login = async (email, password) => {
 
