@@ -55,7 +55,14 @@ function Dashboard() {
       const analyticsData = await getAnalytics();
       setAnalytics(analyticsData.monthly || []);
 
+      
+
     } catch (err) {
+      const statsData = await getDashboardStats();
+
+console.log("Dashboard API Response:", statsData);
+
+setStats(statsData);
       console.log(err);
     }
   };
