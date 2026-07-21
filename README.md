@@ -121,7 +121,9 @@ Password: admin123
 
 ## Screenshots
 
-> _Add screenshots of the Dashboard, Sales Orders, and Inventory pages here._
+#Dashboard
+
+> <img width="1865" height="932" alt="Screenshot 2026-07-20 111635" src="https://github.com/user-attachments/assets/48c2fd30-f2e1-4125-a2e8-cb725ff69a20" />
 
 ---
 
