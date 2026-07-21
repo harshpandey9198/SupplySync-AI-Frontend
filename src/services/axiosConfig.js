@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://supplysync-ai-backend-1.onrender.com/api",
+  baseURL: "http://localhost:8080/api",
 });
 
 API.interceptors.request.use(
