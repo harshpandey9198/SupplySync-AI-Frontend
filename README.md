@@ -86,7 +86,7 @@ npm install
 Open `src/services/api.js`, `authService.js`, and `axiosConfig.js`, and set the `baseURL` to wherever your backend is running, e.g.:
 
 ```js
-baseURL: "http://localhost:8080/api"
+baseURL: "https://supplysync-ai-backend-1.onrender.com/api"
 ```
 
 ### 4. Run the development server
