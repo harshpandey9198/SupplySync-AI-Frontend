@@ -14,6 +14,7 @@ import Inventory from "./pages/Inventory";
 import StockMovement from "./pages/StockMovement";
 import Reports from "./pages/Reports";
 import AiAssistant from "./pages/AiAssistant";
+import Register from "./pages/Register";
 
 function App() {
   return (
@@ -123,6 +124,7 @@ function App() {
             </ProtectedRoute>
           }
         />
+        <Route path="/register" element={<Register />} />
 
       </Routes>
     </BrowserRouter>

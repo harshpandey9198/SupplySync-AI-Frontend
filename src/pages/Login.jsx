@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { login } from "../services/authService";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 import {
   Box,
@@ -9,7 +9,6 @@ import {
   TextField,
   Button,
 } from "@mui/material";
-
 function Login() {
 
   const navigate = useNavigate();
@@ -96,6 +95,23 @@ function Login() {
         >
           Login
         </Button>
+
+        <Typography
+  mt={2}
+  textAlign="center"
+>
+  Don't have an account?{" "}
+  <Link
+    to="/register"
+    style={{
+      color: "#1976d2",
+      textDecoration: "none",
+      fontWeight: "bold",
+    }}
+  >
+    Create Account
+  </Link>
+</Typography>
 
       </Paper>
 
